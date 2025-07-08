@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+.calculator{
+    width: 400px;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 30%;
+    border: 2px solid black;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    margin-bottom: 2%;
+}
+.inputText{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    margin-left:  3%;
+    padding-left: 10px;
+}
+.buttonConatiner{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btns{
+    width: 80px;
+    height: 50px;
+    margin: 2%;
+    font-size: 20px;
+}
+.equal{
+    background-color: rgb(118, 199, 253);
+}
